@@ -113,6 +113,9 @@ run().catch(console.dir);
 app.get('/', (req, res) => {
   res.send('Running the Genius Car Mechanics on Server ')
 });
+app.get('/', (req, res) => {
+  res.send('Hello updated here  ')
+});
 
 
 app.listen(port, () => {
